@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPractice.Api", "iPractice.Api\iPractice.Api.csproj", "{DFFEEE47-3EDD-46E9-93A1-0B0C4DA0C83D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPractice.DataAccess", "iPractice.DataAccess\iPractice.DataAccess.csproj", "{4D1473E5-E85B-4B90-ABD3-6D779675D535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPractice.DataAccess", "iPractice.DataAccess\iPractice.DataAccess.csproj", "{4D1473E5-E85B-4B90-ABD3-6D779675D535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPractice.Scheduling.Domain", "iPractice.Domain\iPractice.Scheduling.Domain.csproj", "{8A82B016-6908-40DF-8935-986620427E51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPractice.SharedKernel", "iPractice.SharedKernel\iPractice.SharedKernel.csproj", "{BB782567-97BF-4C6C-9748-6CD363F05552}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPractice.Scheduling.Api", "iPractice.Schedule.Api\iPractice.Scheduling.Api.csproj", "{9ED95855-5B0C-4331-8ED2-4ED1118564A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{00214EDD-B9B4-4FAE-95D1-B96BAD67C7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPractice.Scheduling.Tests", "iPractice.Scheduling.Tests\iPractice.Scheduling.Tests.csproj", "{21C47F72-410E-406E-815C-B0E0287FFD66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFFEEE47-3EDD-46E9-93A1-0B0C4DA0C83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFFEEE47-3EDD-46E9-93A1-0B0C4DA0C83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFFEEE47-3EDD-46E9-93A1-0B0C4DA0C83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFFEEE47-3EDD-46E9-93A1-0B0C4DA0C83D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D1473E5-E85B-4B90-ABD3-6D779675D535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D1473E5-E85B-4B90-ABD3-6D779675D535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1473E5-E85B-4B90-ABD3-6D779675D535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1473E5-E85B-4B90-ABD3-6D779675D535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A82B016-6908-40DF-8935-986620427E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A82B016-6908-40DF-8935-986620427E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A82B016-6908-40DF-8935-986620427E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A82B016-6908-40DF-8935-986620427E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB782567-97BF-4C6C-9748-6CD363F05552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB782567-97BF-4C6C-9748-6CD363F05552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB782567-97BF-4C6C-9748-6CD363F05552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB782567-97BF-4C6C-9748-6CD363F05552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED95855-5B0C-4331-8ED2-4ED1118564A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED95855-5B0C-4331-8ED2-4ED1118564A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED95855-5B0C-4331-8ED2-4ED1118564A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED95855-5B0C-4331-8ED2-4ED1118564A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C47F72-410E-406E-815C-B0E0287FFD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C47F72-410E-406E-815C-B0E0287FFD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C47F72-410E-406E-815C-B0E0287FFD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C47F72-410E-406E-815C-B0E0287FFD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

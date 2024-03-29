@@ -1,7 +1,7 @@
-﻿using System;
+﻿using iPractice.Scheduling.Domain.SyncAggregates;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using iPractice.DataAccess.Models;
 
 namespace iPractice.DataAccess
 {
